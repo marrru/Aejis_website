@@ -466,12 +466,25 @@ div.clients ul li img {
   width: 100%;
 }
 
+div.header_block {
+	margin-top: 1.4% 0 1.4% 0;
+
+}
+
 h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.875em;
 	text-align: center;
-  line-height: 2.4em;
+  line-height: 1.875em;
   font-weight: 400;
+}
+
+h2.black_text {
+	margin-top: 0.2em;
+	font-size: 1.375em;
+	text-align: center;
+  font-weight: 400;
+  display: block;
 }
 
 div.what_we_do {
