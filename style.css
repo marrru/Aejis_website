@@ -333,6 +333,12 @@ body {
     color: #2c1d2b;
     font-weight: 400;
 }
+body p{
+    font-size: 18px;
+    line-height: 1.56;
+    margin: auto;
+    width: auto;
+}
 
 #main-wraper {
   /*max-width: 82%;*/
@@ -467,27 +473,72 @@ div.clients ul li img {
 }
 
 div.header_block {
-	margin-top: 1.4% 0 1.4% 0;
-
+	margin: 3% 0 2.5% 0;
 }
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.875em;
 	text-align: center;
-  line-height: 1.875em;
   font-weight: 400;
 }
 
 h2.black_text {
-	margin-top: 0.2em;
+	margin-top: 0.5%;
 	font-size: 1.375em;
 	text-align: center;
   font-weight: 400;
   display: block;
 }
 
-div.what_we_do {
+.image_bg {
+
+	background-image: url("assets/bg-line.svg");
+	background-repeat: no-repeat;
+}
+
+.left {
+	margin-left: 6%;
+	width: 100%
+}
+
+.right {
+	margin-top: -4%;
+	margin-left: 56%;
+}
+
+.last {
+	margin-top: -4%;
+}
+
+.illustration {
+	margin-left: 65%;
+	margin-top: -18%;
+	padding-bottom: 3.6%;
+}
+.left_ill {
+	margin-left: 17%;
+}
+
+.background {
+	padding: 3% 4%;
+	width: 40%;
+	border-radius: 8px;
+	background-color: #ffffff;
+	box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.08);
+	-moz-box-sizing: border-box; /* Для Firefox */
+  box-sizing: border-box;
+	transition: bottom .3s, opacity .3s cubic-bezier(.33,.66,.66,1);
+
+}
+
+div.background h3{
+	text-align: left;
+	margin-bottom: 3%;
+
+}
+
+/*div.what_we_do {
   width: 24%;
   display: inline-block;
   margin: 0 4%;
@@ -515,7 +566,7 @@ div.what_we_do p{
 div.what_we_do_line2 {
   margin-top: 4%;
 }
-
+*/
 div.technology {
   display: inline-block;
   width: 100%;
