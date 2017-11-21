@@ -95,6 +95,33 @@ div.header_menu a {
   display: block;
 }
 
+.module {
+}
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.5s ease forwards;
+}
+
+/*.fade {
+  animation: fade 0.3s ease forwards;
+}*/
+
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 .main-img h1{
   padding-top: 13%;
   font-family: 'Montserrat', sans-serif;

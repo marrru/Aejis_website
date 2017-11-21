@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/favicon.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <title>Aejis</title>
  </head>
  <body>
@@ -57,27 +58,27 @@
     </div>
   </div>
 
-  <div class="header_block">
+  <div class="header_block module">
     <h3>We are Creators</h3>
     <h2 class="black_text"> Mobile and desktop applications for your business </h2>
   </div>
   <div id="main-wraper" class="image_bg">
-    <div class="background left">
+    <div class="background left module">
       <h3>We Are</h3>
       <p>We develop our projects day by day, during the years, since 2009. And we know how to make continuous development possible. Software development is our passion, so we care a lot of the quality of our work. That's why we have adopted the strict quality standards.</p>
     </div>
     <img src="assets/ill 1.svg" alt="" class="illustration" />
-    <div class="background right">
+    <div class="background right module">
       <h3>Our Passion</h3>
       <p>It doesn't matter how big and complex your project is — we will take care of its maintainability.By Maintaining code review, test coverage, static code analysis, code documentation and pixel perfection we are reaching your absolute happiness.</p>
     </div>
     <img src="assets/ill 2.svg" alt="" class="illustration left_ill" />
-    <div class="background left last">
+    <div class="background left last module">
       <h3>We Are</h3>
       <p>We develop our projects day by day, during the years, since 2009. And we know how to make continuous development possible. Software development is our passion, so we care a lot of the quality of our work. That's why we have adopted the strict quality standards.</p>
     </div>
     <img src="assets/ill 3.svg" alt="" class="illustration" />
-    <div class="background right">
+    <div class="background right module">
       <h3>Our Passion</h3>
       <p id="technology">It doesn't matter how big and complex your project is — we will take care of its maintainability.By Maintaining code review, test coverage, static code analysis, code documentation and pixel perfection we are reaching your absolute happiness.</p>
     </div>
@@ -88,7 +89,7 @@
     <h3>Technologies</h3>
     <h2 class="black_text">Some text about technologies</h2>
   </div>
-    <div class="technology" id="technology">
+    <div class="technology module" id="technology">
       <ul>
         <li class="first_item"><img src="assets/technologies/ruby-895dbce9.svg"><p class="tech_name">Ruby</p></li>
         <li><img src="assets/technologies/rails-28f1916b.svg"><p class="tech_name">Ruby on Rails</p></li>
@@ -110,26 +111,26 @@
     </div>
   </div>
 <div id="main-wraper">
-    <div class="header_block" id="testimonial">
+    <div class="header_block module" id="testimonial">
       <h3>Our clients say</h3>
-      <h2 class="black_text">We are reaching your absolute happiness</h2>
+      <h2 class="black_text ">We are reaching your absolute happiness</h2>
     </div>
-    <div class="testimonial">
-      <div class="testimonial_fade">
+    <div class="testimonial ">
+      <div class="testimonial_fade module">
         <div class="quotation"></div>
         <p>Aejis created our site at 2009. Since then they support it and develop new features very fast and with good quality. We appreciate their help in and suggestions how to reach our business targets.</p>
         <img src="assets/photo1.png">
         <p class="name">Svetlana Baeva</p>
         <p class="position"> Owner at Brand-Service</p>
       </div>
-      <div class="testimonial_fade">
+      <div class="testimonial_fade module">
         <div class="quotation"></div>
         <p>Aejis were contracted by Facewatch Limited, UK, in 2011 to provide ongoing development and test resource to create an online crime reporting system. The team work exceptionally well with the</p>
         <img src="assets/photo2.png">
         <p class="name">Andrew Wood</p>
         <p class="position">CTO at FaceWatch</p>
       </div>
-      <div class="testimonial_fade">
+      <div class="testimonial_fade module">
         <div class="quotation"></div>
         <p>Aejis were contracted by Facewatch Limited, UK, in 2011 to provide ongoing development and test resource to create an online crime reporting system. The team work exceptionally well with the</p>
         <img src="assets/photo3.png" id="our_team">
@@ -138,11 +139,11 @@
       </div>
     </div>
 </div>
-    <div class="header_block">
+    <div class="header_block module">
       <h3>Our Team</h3>
       <h2 class="black_text">The people of Aejis is our biggest value</h2>
     </div>
-    <ul class="team" id="main-wraper">
+    <ul class="team module" id="main-wraper">
       <li>
         <img src="assets/photos/TS.png" alt="Tanya Savchenko">
         <p class="name">Tanya Savchenko</p>
@@ -297,6 +298,63 @@
             y.style.zIndex = "0";
         }
       }
+
+      
+   
+      
+      
+(function($) {
+
+  /**
+   * Copyright 2012, Digital Fusion
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   *
+   * @author Sam Sehnert
+   * @desc A small plugin that checks whether elements are within
+   *     the user visible viewport of a web browser.
+   *     only accounts for vertical position, not horizontal.
+   */
+
+  $.fn.visible = function(partial) {
+    
+      var $t            = $(this),
+          $w            = $(window),
+          viewTop       = $w.scrollTop(),
+          viewBottom    = viewTop + $w.height(),
+          _top          = $t.offset().top,
+          _bottom       = _top + $t.height(),
+          compareTop    = partial === true ? _bottom : _top,
+          compareBottom = partial === true ? _top : _bottom;
+    
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+  };
+    
+})(jQuery);
+
+var win = $(window);
+
+var allMods = $(".module");
+
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } 
+});
+
+win.scroll(function(event) {
+  
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in fade"); 
+    } 
+  });
+  
+});
+      
     </script>
 
  </body>
