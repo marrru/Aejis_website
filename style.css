@@ -135,6 +135,7 @@ a.primary_button {
 
 .primary_button:hover {
   background-image: linear-gradient(to right, #FF1179, #CF1892);
+  cursor:pointer;
 }
 
 .clients {
@@ -374,11 +375,12 @@ div.social_icons a {
 
 div.social_icons a:hover {
   opacity: 1;
+  color: #e60f6b;
 }
 
 .contacts {
 	display: inline-block;
-  margin-left: 1em;
+    margin-left: 1em;
 }
 
 div.contacts a {
@@ -390,6 +392,7 @@ div.contacts a {
 
 div.contacts a:hover {
   opacity: 1;
+  color: #e60f6b;
 }
 
 .cover {
@@ -463,14 +466,15 @@ form.form button {
 	border-radius: 4px;
 	background:0;
 	color: #B51681;
-	cursor:pointer;
+	cursor: pointer;
 	text-transform: uppercase;
 	transition:all .3s;
 }
 
 form.form button:hover {
 	background: #B51681;
-	color:#fff
+	color:#fff;
+    cursor:pointer;
 }
 
 form.form div {
@@ -491,6 +495,11 @@ form.form div a {
 	margin:0 5px 0 15px;
 	color: #fff;
 	transition:all .3s;
+    cursor:pointer;
+}
+
+form.form div a:hover {
+    opacity: .7;
 }
 
 @media only screen and (max-width: 960px) and (min-width: 768px) {
