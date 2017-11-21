@@ -13,313 +13,7 @@ ul {
 a {
 	text-decoration: none;
 }
-
 /* reset styles - end*/
-
-/*@media*/
-@media only screen and (max-width: 960px) and (min-width: 786px) {
-
- #main-wraper {
-    max-width: 959px !important;
-    min-width: 768px !important;
-  }
-
-  .main-img h1 {
-      font-size: 1.75em !important;
-  }
-
-  .main-img h2{
-    margin-top: 0.2em;
-  	font-size: 1.1em !important;
-  }
-
-  h3 {
-  	font-size: 1.7em !important;
-    line-height: 2em !important;
-  }
-
-  div.what_we_do {
-      width: 27% !important;
-			margin: 0 3% !important;
-    }
-
-  div.what_we_do h5 {
-    	font-size: 1em !important;
-  	}
-
-  div.technology ul li img{
-    	width: 68%;
-		}
-
-	div.technology ul li {
-    width: 11% !important;
-    margin-left: 1% !important;
-	}
-
-	div.technology ul li p{
-		font-size: 14px;
-	}
-
-	div.testimonial_selected p, div.testimonial_fade p {
-		font-size: 1em !important;
-		line-height: 1.6 !important;
-	}
-
-	.quotation {
-    margin: 11% 40% 5% 40% !important;
-	}
-}
-
-@media only screen and (min-width: 460px) and (max-width: 785px) {
-
-	div.header_menu a {display: none;}
-
-	.icon {
-    display: block !important;
-    font-size: 1.4em;
-    color: #B51681 !important;
-		margin-top: -5px;
-		margin-right: 15px;
-	}
-
-	.header_menu.responsive {position: relative;}
-  .header_menu.responsive a.icon {
-		color: #333 !important;
-		position: absolute;
-		top: 16px;
-		right: 0px;
-		padding-top: 0;
-  }
-
-  .header_menu.responsive a {
-    display: block;
-    text-align: center;
-		background-color: #fff;
-		float: none;
-		padding: 1em 0;
-  }
-
-	.last_element {
-		padding-bottom: 2em !important;
-	}
-
-	.header_menu.responsive {
-		background-color: #fff;
-		float: none;
-		display: block;
-	}
-
-	#main-wraper {
-     max-width: 786px !important;
-     min-width: 459px !important;
-   }
-
-	.main-img h1 {
-			padding-top: 18% !important;
-	    font-size: 1.75em !important;
-	  }
-
-	  .main-img h2{
-	    margin-top: 0.2em;
-	  	font-size: 1.1em !important;
-	  }
-
-		a.primary_button {
-		  padding: 12px 24px!important;
-			font-size: 1em!important;
-		}
-
-		div.clients ul li {
-		  padding-left: 1.5% !important;
-		  padding-right: 1.5% !important;
-		  display: inline-block;
-		}
-
-	  h3 {
-	  	font-size: 1.7em !important;
-	    line-height: 2em !important;
-	  }
-
-	  div.what_we_do {
-	      width: 46% !important;
-	      margin: 0 1.8% !important;
-	  }
-
-	  div.what_we_do h5 {
-	    font-size: 1em !important;
-	  }
-
-		div.technology ul li {
-			width: 18% !important;
-	    margin: 2% 2.7% !important;
-		}
-
-		.quotation {
-		  background: url(assets/ic_quotation.svg) 50% 100% no-repeat !important;
-		  padding: 6% 45% 0% 50%;
-			margin: 0 !important;
-		}
-
-		.testimonial {
-		  display: block !important;
-			width: 90% !important;
-			margin: auto;
-		}
-
-		.testimonial_fade {
-			opacity: 1 !important;
-		  padding: 0 2em 2em 2em;
-		  margin: 3% 0 !important;
-		}
-
-		div.testimonial_fade p {
-			font-size: 1em !important;
-			line-height: 1.6 !important;
-			padding-top: 5%;
-		}
-
-		div.photo h4 {
-			font-size: 1em !important;
-		}
-
-		div.photo p {
-			font-size: 0.8em;
-		}
-}
-
-
-@media only screen and (max-width: 458px) and (min-width: 320px) {
-
-	div.header_menu a {display: none;}
-
-	.icon {
-    display: block !important;
-    font-size: 1.4em;
-    color: #B51681 !important;
-		margin-top: -5px;
-		margin-right: 15px;
-	}
-
-	.header_menu.responsive {position: relative;}
-  .header_menu.responsive a.icon {
-		color: #333 !important;
-		position: absolute;
-		top: 16px;
-		right: 0px;
-		padding-top: 0;
-  }
-
-  .header_menu.responsive a {
-    display: block;
-    text-align: center;
-		background-color: #fff;
-		float: none;
-		padding: 1em 0;
-  }
-
-	.last_element {
-		padding-bottom: 2em !important;
-	}
-
-	.header_menu.responsive {
-		background-color: #fff;
-		float: none;
-		display: block;
-	}
-
-	#main-wraper {
-     min-width: 320px !important;
-     max-width: 458px !important;
-   }
-
-		.main-img h1 {
-			padding-top: 46% !important;
-	    font-size: 1.75em !important;
-	  }
-
-	  .main-img h2{
-	    margin-top: 0.2em;
-	  	font-size: 1.1em !important;
-	  }
-
-		a.primary_button {
-		  padding: 12px 24px!important;
-			font-size: 1em!important;
-		}
-
-		.primary_button_wraper {
-  		margin-bottom: 40% !important;
-		}
-
-		div.clients ul li {
-		  padding-left: 1.5% !important;
-		  padding-right: 1.5% !important;
-		}
-
-		div.clients ul li:nth-child(5), div.clients ul li:nth-child(4){
-			display: none;
-		}
-
-	  h3 {
-	  	font-size: 1.7em !important;
-	    line-height: 2em !important;
-	  }
-
-	  div.what_we_do {
-	      width: 100% !important;
-	      margin: 0 1.8% !important;
-	  }
-
-	  div.what_we_do h5 {
-	    font-size: 1em !important;
-	  }
-
-		div.technology ul li {
-			width: 28% !important;
-			margin: 2% 2.1% !important;
-		}
-
-		.quotation {
-		  background: url(assets/ic_quotation.svg) 50% 100% no-repeat !important;
-		  padding: 6% 45% 0% 50%;
-			margin: 0 !important;
-		}
-
-		.testimonial {
-		  display: block !important;
-			width: 90% !important;
-			margin: auto;
-		}
-
-		.testimonial_fade {
-			opacity: 1 !important;
-		  padding: 0 2em 2em 2em;
-		  margin: 3% 0 !important;
-		}
-
-		div.testimonial_fade p {
-			font-size: 1em !important;
-			line-height: 1.6 !important;
-			padding-top: 5%;
-		}
-
-		div.photo h4 {
-			font-size: 1em !important;
-		}
-
-		div.photo p {
-			font-size: 0.8em;
-		}
-
-		div.photo {
-			width: 40%;
-			display: inline-block;
-			padding: 2% 2%;
-		}
-
-}
-
-
 
 
 @font-face {
@@ -341,9 +35,8 @@ body p{
 }
 
 #main-wraper {
-  /*max-width: 82%;*/
   max-width: 1100px;
-  min-width: 960px;
+  /*min-width: 960px;*/
   margin: auto;
   display: block;
   padding: 0 1% 0 1%;
@@ -459,7 +152,6 @@ div.clients ul{
 
 li.first_item {
   margin-left: 0 !important;
-  /*padding-left: 0 !important;*/
 }
 
 div.clients ul li {
@@ -473,7 +165,7 @@ div.clients ul li img {
 }
 
 div.header_block {
-	margin: 3% 0 2.5% 0;
+	margin: 3% 0 4% 0;
 }
 
 h3 {
@@ -492,7 +184,6 @@ h2.black_text {
 }
 
 .image_bg {
-
 	background-image: url("assets/bg-line.svg");
 	background-repeat: no-repeat;
 }
@@ -528,8 +219,6 @@ h2.black_text {
 	box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.08);
 	-moz-box-sizing: border-box; /* Для Firefox */
   box-sizing: border-box;
-	transition: bottom .3s, opacity .3s cubic-bezier(.33,.66,.66,1);
-
 }
 
 div.background h3{
@@ -538,47 +227,16 @@ div.background h3{
 
 }
 
-/*div.what_we_do {
-  width: 24%;
-  display: inline-block;
-  margin: 0 4%;
-	padding-bottom: 2%;
-}
-
-div.what_we_do img {
-	display: block;
-	margin: auto;
-}
-
-div.what_we_do h5 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.063em;
-	text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
-  padding: 0.7em 0 0.6em 0;
-}
-div.what_we_do p{
-	font-size: 1.063em;
-	line-height: 1.44;
-	text-align: center;
-}
-div.what_we_do_line2 {
-  margin-top: 4%;
-}
-*/
 div.technology {
+    text-align: center;
   display: inline-block;
   width: 100%;
-  margin-top: 1em;
-	margin-bottom: 1.5%;
 }
 
 div.technology ul li{
   display: inline-block;
-  width: 10%;
-  align-items: center;
-  margin-left: 2.3%;
+  width: 10.8%;
+  margin-left: 1.5%;
   text-align: center;
 	margin-bottom: 3%;
 }
@@ -589,6 +247,12 @@ div.technology ul li p{
 
 div.technology ul li img{
   padding-bottom: 10%;
+}
+
+.tech_name {
+    font-size: 1em;
+	padding-top: 0 !important;
+    
 }
 
 .testimonial {
@@ -629,7 +293,6 @@ div.technology ul li img{
 }
 
 div.testimonial_fade p {
-	font-size: 18px;
 	line-height: 1.56;
   margin: auto;
   width: auto;
@@ -639,17 +302,19 @@ div.testimonial_fade img {
   margin: 1.2em 0;
 }
 
-div.testimonial_fade h5 {
+p.name {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.063em;
 	text-align: center;
   text-transform: uppercase;
   font-weight: 400;
+	padding-top: 0 !important;
 }
 
-div.testimonial_fade h6{
+p.position {
   font-size: 1em;
   opacity: 0.7;
+	padding-top: 0 !important;
 }
 
 .quotation {
@@ -659,82 +324,64 @@ div.testimonial_fade h6{
   margin: 11% 46% 5% 46%;
 }
 
-.photo_row {
-  text-align: center;
-	width: 100%;
+.team {
+	text-align: center;
+}
 
+.team img{
+	margin-bottom: 4%;
+    max-width: 239px;
 }
-div.first_item {
-    margin-left: 0 !important;
-}
-.photo {
-  width: 22%;
-  margin-left: 2%;
+
+.team li {
 	display: inline-block;
 }
-
-div.photo img{
-  width: 100%;
-}
-div.photo h4 {
+.team h4 {
 	font-size: 1.25em;
 	text-align: center;
   font-weight: 400;
   margin: 0.8em 0 0.3em 0;
 }
 
-
 footer {
-  width: 100%;
   height: 5.625em;
   background-color: #362333;
   margin-top: 3%;
-}
-
-.footer {
-  max-width: 1100px;
-  margin: auto;
-  font-size: 17px;
-  color: #ffffff;
-
+	color: #ffffff;
+	box-sizing: border-box;
+	padding: 2.4% 0;
 }
 
 .copyright {
-  float: left;
-  max-width: 200px;
-  padding: 3% 0;
+  display: inline-block;
   opacity: .8;
 }
 
 .social_icons {
   font-family: 'icons';
   font-size: 30px;
-  color: #ffffff;
-  padding: 2.5% 0;
-  float: right;
-  margin-left: 0.5em;
+	display: inline-block;
+	float: right;
+  margin-left: 1.5%;
+	margin-top: -0.5%;
 }
 div.social_icons a {
-  text-decoration: none;
   color: #fff;
   opacity: .8;
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
 div.social_icons a:hover {
-  text-decoration: none;
   opacity: 1;
 }
 
 .contacts {
-  padding: 3% 0;
-  float: right;
+	display: inline-block;
   margin-left: 1em;
 }
 
 div.contacts a {
-	font-size: 17px;
-  text-decoration: none;
   color: #fff;
   opacity: .8;
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -757,7 +404,6 @@ div.contacts a:hover {
   -ms-transition: opacity .25s ease-in-out;
   -o-transition: opacity .25s ease-in-out;
   transition: opacity .25s ease-in-out;
-
 }
 
 .form	{
@@ -781,7 +427,6 @@ form.form h2 {
 	width: 56%;
 	opacity: 0.6;
 	color: #333;
-	/*border-bottom: 2px solid #B51681;*/
 }
 
 form.form input {
@@ -846,4 +491,488 @@ form.form div a {
 	margin:0 5px 0 15px;
 	color: #fff;
 	transition:all .3s;
+}
+
+@media only screen and (max-width: 960px) and (min-width: 768px) {
+
+ #main-wraper {
+    max-width: 959px;
+    /*min-width: 768px;*/
+  }
+
+  .main-img h1 {
+      font-size: 1.75em;
+  }
+
+  .main-img h2{
+    margin-top: 0.2em;
+  	font-size: 1.1em;
+  }
+
+	h2.black_text {
+		margin-top: -0.5%;
+		font-size: 1.1em;
+	}
+
+	.image_bg {
+	    background-image: url(assets/bg-pattern.svg);
+			background-repeat: repeat;
+		}
+
+		.left {
+    margin-left: 1%;
+		width: 45%;
+	}
+
+	div.background p {
+    font-size: 1em;
+    line-height: 1.6;
+	}
+
+	div.background h3 {
+    font-size: 1.4em;
+    margin-bottom: 0%;
+	}
+
+	.right {
+    margin-top: -4%;
+    margin-left: 54%;
+		width: 45%;
+	}
+
+	.illustration {
+    margin-left: 63%;
+		margin-top: -28%;
+	}
+
+	.left_ill {
+    margin-left: 12%;
+	}
+
+  h3 {
+  	font-size: 1.7em;
+    line-height: 2em;
+  }
+
+  div.what_we_do {
+      width: 27%;
+			margin: 0 3%;
+    }
+
+  div.what_we_do h5 {
+    	font-size: 1em;
+  	}
+
+  div.technology ul li img{
+    	width: 68%;
+		}
+
+	div.technology ul li {
+    width: 11% !important;
+    margin-left: 1% !important;
+	}
+
+	div.technology ul li p{
+		font-size: 14px;
+	}
+
+	div.testimonial_selected p, div.testimonial_fade p {
+		font-size: 1em !important;
+		line-height: 1.6 !important;
+	}
+
+	.quotation {
+    margin: 11% 40% 5% 40% !important;
+	}
+
+	footer {
+	  height: 4.625em;
+		padding: 2.8% 1%;
+	}
+
+	.logo {
+		margin-left: 1%;
+	}
+
+}
+
+@media only screen and (min-width: 460px) and (max-width: 767px) {
+
+	div.header_menu a {display: none;}
+
+	.logo {
+		margin-left: 2%;
+	}
+
+	.icon {
+    display: block !important;
+    font-size: 1.4em;
+    color: #B51681 !important;
+		margin-top: -5px;
+		margin-right: 15px;
+	}
+
+	.header_menu.responsive {position: relative;}
+  .header_menu.responsive a.icon {
+		color: #333 !important;
+		position: absolute;
+		top: 16px;
+		right: 0px;
+		padding-top: 0;
+  }
+
+  .header_menu.responsive a {
+    display: block;
+    text-align: center;
+		background-color: #fff;
+		float: none;
+		padding: 1em 0;
+  }
+
+	.last_element {
+		padding-bottom: 2em !important;
+	}
+
+	.header_menu.responsive {
+		background-color: #fff;
+		float: none;
+		display: block;
+	}
+
+	#main-wraper {
+     max-width: 767px;
+     min-width: 459px;
+		 padding: 0;
+   }
+
+	.main-img h1 {
+			padding-top: 18% !important;
+	    font-size: 1.75em !important;
+	  }
+
+	  .main-img h2{
+	    margin-top: 0.2em;
+	  	font-size: 1.1em !important;
+	  }
+
+		a.primary_button {
+		  padding: 12px 24px!important;
+			font-size: 1em!important;
+		}
+
+		div.clients ul li {
+		  padding-left: 1.5% !important;
+		  padding-right: 1.5% !important;
+		  display: inline-block;
+		}
+
+	  h3 {
+	  	font-size: 1.7em;
+	    line-height: 2em;
+	  }
+
+		.image_bg {
+		    background-image: url(assets/bg-pattern.svg);
+				background-repeat: repeat;
+			}
+
+			.left, .right {
+				margin: 5%;
+				width: auto;
+				text-align: center;
+			}
+
+			div.background p {
+		    font-size: 1em;
+		    line-height: 1.6;
+			}
+
+			h2.black_text {
+				    font-size: 1.1em;
+			}
+
+			div.background h3 {
+				font-size: 1.4em;
+				margin-bottom: 0%;
+				text-align: center;
+			}
+
+			.illustration {
+				display: none;
+			}
+
+			.left_ill {
+				margin-left: 12%;
+			}
+
+	  div.what_we_do {
+	      width: 46% !important;
+	      margin: 0 1.8% !important;
+	  }
+
+	  div.what_we_do h5 {
+	    font-size: 1em !important;
+	  }
+
+		div.technology ul li {
+			width: 18% !important;
+	    margin: 2% 2.7% !important;
+		}
+
+		.quotation {
+		  background: url(assets/ic_quotation.svg) 50% 100% no-repeat !important;
+		  padding: 6% 45% 0% 50%;
+			margin: 0 !important;
+		}
+
+		.testimonial {
+		  display: block;
+			width: 90%;
+			margin: auto;
+		}
+
+		.testimonial_fade {
+			opacity: 1;
+		  padding: 0 2em 2em 2em;
+		  margin: 3% 0;
+		}
+
+		div.testimonial_fade p {
+			font-size: 1em;
+			line-height: 1.6;
+			padding-top: 5%;
+		}
+
+		.team img {
+			width: 80%;
+		}
+
+	 footer {
+	   height: 6em;
+	 	padding: 3% 2%;
+	 }
+
+	 .contacts {
+		 margin-top: 1%;
+	 	display: block;
+	   margin-left: 0em;
+	 }
+	 .social_icons {
+			margin-left: 3.5%;
+	    margin-top: 2.5%;
+	 }
+
+}
+
+@media only screen and (max-width: 458px) and (min-width: 320px) {
+
+	div.header_menu a {display: none;}
+
+	.logo {
+		margin-left: 2%;
+	}
+
+	.icon {
+    display: block !important;
+    font-size: 1.4em;
+    color: #B51681 !important;
+		margin-top: -5px;
+		margin-right: 15px;
+	}
+
+	.header_menu.responsive {position: relative;}
+  .header_menu.responsive a.icon {
+		color: #333 !important;
+		position: absolute;
+		top: 16px;
+		right: 0px;
+		padding-top: 0;
+  }
+
+  .header_menu.responsive a {
+    display: block;
+    text-align: center;
+		background-color: #fff;
+		float: none;
+		padding: 1em 0;
+  }
+
+	.last_element {
+		padding-bottom: 2em !important;
+	}
+
+	.header_menu.responsive {
+		background-color: #fff;
+		float: none;
+		display: block;
+	}
+
+	#main-wraper {
+     min-width: 320px !important;
+     max-width: 458px !important;
+   }
+
+		.main-img h1 {
+			padding-top: 46% !important;
+	    font-size: 1.75em !important;
+	  }
+
+	  .main-img h2{
+	    margin-top: 0.2em;
+	  	font-size: 1.1em !important;
+	  }
+
+		a.primary_button {
+		  padding: 12px 24px!important;
+			font-size: 1em!important;
+		}
+
+		.primary_button_wraper {
+  		margin-bottom: 40% !important;
+		}
+
+		div.clients ul li {
+		  padding-left: 1.5% !important;
+		  padding-right: 1.5% !important;
+		}
+
+		div.clients ul li:nth-child(5), div.clients ul li:nth-child(4){
+			display: none;
+		}
+
+	  h3 {
+	  	font-size: 1.7em !important;
+	    line-height: 2em !important;
+	  }
+
+	  div.what_we_do {
+	      width: 100% !important;
+	      margin: 0 1.8% !important;
+	  }
+
+	  div.what_we_do h5 {
+	    font-size: 1em !important;
+	  }
+
+		div.technology ul li {
+			width: 28% !important;
+			margin: 2% 2.1% !important;
+		}
+
+		.image_bg {
+		    background-image: url(assets/bg-pattern.svg);
+				background-repeat: repeat;
+			}
+
+			.left, .right {
+				margin: 5%;
+				width: auto;
+				text-align: center;
+			}
+
+			div.background p {
+		    font-size: 1em;
+		    line-height: 1.6;
+			}
+
+			h2.black_text {
+				    font-size: 1.1em;
+			}
+
+			div.background h3 {
+				font-size: 1.4em;
+				margin-bottom: 0%;
+				text-align: center;
+			}
+
+			.background {
+    		padding: 3% 6% 7% 6%;
+			}
+
+			.illustration {
+				display: none;
+			}
+
+			.left_ill {
+				margin-left: 12%;
+			}
+
+			.team li {
+				width: 49%;
+			}
+
+
+			.team img {
+				width: 100%;
+			}
+
+		.quotation {
+		  background: url(assets/ic_quotation.svg) 50% 100% no-repeat !important;
+		  padding: 6% 45% 0% 50%;
+			margin: 0 !important;
+		}
+
+		.testimonial {
+		  display: block !important;
+			width: 90% !important;
+			margin: auto;
+		}
+
+		.testimonial_fade {
+			opacity: 1 !important;
+		  padding: 0 2em 2em 2em;
+		  margin: 3% 0 !important;
+		}
+
+		div.testimonial_fade p {
+			font-size: 1em !important;
+			line-height: 1.6 !important;
+			padding-top: 5%;
+		}
+
+		div.photo h4 {
+			font-size: 1em !important;
+		}
+
+		div.photo p {
+			font-size: 0.8em;
+		}
+
+		div.photo {
+			width: 40%;
+			display: inline-block;
+			padding: 2% 2%;
+		}
+
+		footer {
+			font-size: 0.9em;
+		 	height: 5.4em;
+		 	padding: 3% 2%;
+	  }
+
+	  .copyright {
+	 	 display: inline-block;
+	 	 opacity: .8;
+	  }
+
+	  .social_icons {
+		 	font-size: 1.9em;
+			margin-left: 4.5%;
+			margin-top: 3.5%;
+	  }
+
+	  .contacts {
+	 	display: block;
+		margin-top: 1%;
+	 	 margin-left: 0em;
+	  }
+
+		p.name {
+			font-size: 0.85em;
+		}
+
+		p.position {
+		  font-size: 0.8em;
+		}
+
 }
