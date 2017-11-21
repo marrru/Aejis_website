@@ -49,7 +49,7 @@
   <div class="clients" id="what_we_do">
     <div id="main-wraper">
       <ul>
-        <li class="first_item"> <a href="#"> <img src="assets/logo1@2x.png"> </a> </li>
+        <li> <a href="#"> <img src="assets/logo1@2x.png"> </a> </li>
         <li><a href="#"><img src="assets/logo2@2x.png"></a></li>
         <li><a href="#"><img src="assets/logo3@2x.png"></a></li>
         <li><a href="#"><img src="assets/logo4@2x.png"></a></li>
@@ -305,17 +305,6 @@
       
 (function($) {
 
-  /**
-   * Copyright 2012, Digital Fusion
-   * Licensed under the MIT license.
-   * http://teamdf.com/jquery-plugins/license/
-   *
-   * @author Sam Sehnert
-   * @desc A small plugin that checks whether elements are within
-   *     the user visible viewport of a web browser.
-   *     only accounts for vertical position, not horizontal.
-   */
-
   $.fn.visible = function(partial) {
     
       var $t            = $(this),
@@ -349,7 +338,7 @@ win.scroll(function(event) {
   allMods.each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
-      el.addClass("come-in fade"); 
+      el.addClass("come-in"); 
     } 
   });
   
