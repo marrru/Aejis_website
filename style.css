@@ -240,6 +240,7 @@ div.technology ul li p{
 
 div.technology ul li img{
   padding-bottom: 10%;
+  height: 60px;
 }
 
 .tech_name {
@@ -266,8 +267,8 @@ div.technology ul li img{
 .testimonial_fade:hover {
   z-index: 2;
   border-top: 0.3em solid #b51681;
-  -webkit-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05);
+  /*-webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);*/
   opacity: 1;
   box-shadow: 0 0 34px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
