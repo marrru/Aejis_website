@@ -157,13 +157,28 @@ div.clients ul{
 }
 
 div.clients ul li {
-  padding-left: 4.5%;
-  padding-right: 4.5%;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 div.clients ul li img {
   width: 100%;
-}
+  filter: url(filters.svg#grayscale);
+    /* Firefox 3.5+ */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome & Safari 6+ */
+	opacity:0.3;
+	-webkit-transition: all .25s ease-in-out;
+  
+  }
+  div.clients ul li img:hover {
+	  filter: none;
+	  -webkit-filter: none;
+	  opacity:1;
+  }
+
 
 div.header_block {
 	margin: 3% 0 4% 0;
